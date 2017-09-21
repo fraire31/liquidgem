@@ -1,0 +1,298 @@
+* {
+	margin: 0;
+	padding:0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(203,188,183);
+}
+
+.emptydiv{
+	height: 80px;
+}
+
+nav{
+	width:100%;
+	position: fixed;
+}
+
+#liquidgem{
+	margin-right: 900px;
+	margin-left:60px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
+
+}
+
+nav ul li i {
+	color:  hotpink;
+}
+
+li{
+	display: inline-block;
+	margin: 20px;
+}
+
+li a{
+	color: black;
+	text-decoration: none;
+}
+
+hr{
+	background-color:black;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.sectionone{
+	text-align: center;
+}
+
+.sectionone h2{
+	margin: 30px;
+	letter-spacing: 2px;
+}
+
+.sectionone p{
+	font-size: 14px;
+	letter-spacing: 2px;
+}
+
+#cinthia{
+	color: hotpink;
+}
+
+.sectionone p{
+	margin:30px;
+}
+
+.sectionone img{
+	width: 600px !important;
+	margin-left: 15px !important;
+	border-radius: 20% !important;
+}
+
+.sectiontwo{
+	margin-top: 90px;
+	margin-bottom: 60px;
+}
+
+.aboutme h3{
+	color: hotpink;
+	margin-bottom: 15px;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+	font-size: 150%;
+}
+
+.aboutme p{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.aboutme{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 40px;
+}
+
+.mywork h3{
+	color:hotpink;
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 150%;
+}
+
+.mywork p{
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.mywork {
+	display: inline-block;
+	margin-bottom: 40px;
+}
+
+/**pictures**/
+
+img{
+	width: 220px;
+}
+
+.pictures > div{
+	display: inline-block;
+	margin-top: 70px !important;
+	margin:20px;
+	text-align: center;
+
+}
+
+.ladybug img{
+	transform: rotate(90deg);
+}
+
+.ladybug p{
+	margin-top:28px;
+}
+
+.lizard img{
+	transform: rotate(90deg);
+}
+
+.lizard p{
+	margin-top:28px;
+}
+
+.orangeflower img{
+	transform: rotate(90deg);
+}
+
+.orangeflower p{
+	margin-top: 28px;
+}
+
+.poppy img{
+	transform: rotate(90deg);
+}
+
+.poppy p{
+	margin-top: 28px;
+}
+
+.stinson img{
+	transform: rotate(90deg);
+}
+
+.stinson p{
+	margin-top: 28px;
+}
+
+div.pictures{
+	text-align: center;
+}
+
+div.pictures > div > p, span#pic {
+	background-color: white;
+	border-radius: 75%;
+	font-size: 12px;
+}
+
+.thankyou{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom:40px;
+	}
+
+.thankyou h1{
+	font-family: 'Dancing Script', cursive;
+    color: hotpink;
+    margin: 80px;
+}
+
+.contactbox > form > input {
+  display: block;
+  margin-top: 20px;
+  border: none;
+  border-style: ;
+
+}
+
+.contactbox > form > textarea{
+	margin-top: 20px;
+}
+
+input::placeholder{
+	color:black;
+}
+
+textarea::placeholder{
+	color:black;
+}
+
+.contactbox{
+	background-color: black;
+}
+
+.contactbox .mediaicons{
+	background-color: black;
+	display: absolute;
+	margin-left:90%;
+	margin-top: 20px;
+	position: relative;
+	bottom: 120px;
+}
+
+.mediaicons > i{
+	font-size: 20px;
+	margin-right: 15px;
+	border-radius: 80px;
+	background-color: hotpink;
+	color: black;
+}
+
+.contactbox > form{
+	background-color: black;
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
+.contactbox h3{
+	background-color: black;
+	color: hotpink;
+	font-family: 'Dancing Script', cursive;
+	margin-left: 15px;
+	margin-top: 20px;
+}
+
+.contactbox input#button{
+	background-color:black;
+	color:white;
+}
+
+nav li > i.fa-diamond:hover{
+	color: yellow;
+}
+
+@media (max-width:1519px){
+	.aboutme, .mywork{
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width:1472px){
+	#liquidgem{
+		margin-right: 750px;
+	}
+}
+
+@media (max-width:1326px){
+	#liquidgem{
+		margin-right: 550px;
+	}
+}
+
+@media (max-width:1130px){
+	#liquidgem{
+		margin-right:350px;
+	}
+}
+
+@media (max-width:945px){
+	#liquidgem{
+		margin-right: 200px;
+	}
+}
+
+@media (max-width:778px){
+	#liquidgem{
+		margin-right: 80px;
+	}
+}
+
+@media (max-width:652px){
+	#liquidgem{
+		margin-right: 30px;
+	}
+}
